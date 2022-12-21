@@ -435,6 +435,14 @@ li {
     animation-fill-mode: forwards;
 }
 
+.continue-button {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+}
+
 .reveal {
     position: relative;
     transform: translateY(150px);

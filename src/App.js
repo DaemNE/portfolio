@@ -9,6 +9,7 @@ import CssProjects from "./components/projects/CssProjects";
 import HtmlProjects from "./components/projects/HtmlProjects";
 import JavascriptProjects from "./components/projects/JavascriptProjects";
 import MostProudProjects from "./components/projects/MostProudProjects";
+import Portfolio from "./components/projects/Portfolio";
 import ReactProjects from "./components/projects/ReactProjects";
 
 function App() {
@@ -42,6 +43,7 @@ function App() {
           <Route path={"react"} element={<ReactProjects />}></Route>
         </Route>
         <Route path="/cv" element={<Content />}></Route>
+        <Route path="/portfolio" element={<Portfolio />}></Route>
         <Route path="*" element={<NoMatch />}></Route>
       </Routes>
     </>
