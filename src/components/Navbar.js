@@ -11,7 +11,7 @@ function Navbar() {
 
   return (
     <nav className="nav-bar">
-      <NavLink style={navLinkStyles} to={"/portfolio"}>
+      <NavLink style={navLinkStyles} to={"/"}>
         Home
       </NavLink>
       <NavLink style={navLinkStyles} to={"/projects"}>

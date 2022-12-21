@@ -11,19 +11,19 @@ function Home() {
         <p>and welcome to my portfolio!</p>
         <p>
           On this webpage you can navigate to{" "}
-          <NavLink to={"/projects"} className="about-projects">
+          <NavLink to={"projects"} className="about-projects">
             Projects
           </NavLink>{" "}
           and have a look at my{" "}
-          <NavLink to={"/cv"} className="about-experience">
+          <NavLink to={"cv"} className="about-experience">
             Experience
           </NavLink>
           ,{" "}
-          <NavLink to={"/cv"} className="about-skills">
+          <NavLink to={"cv"} className="about-skills">
             Skills
           </NavLink>{" "}
           and my{" "}
-          <NavLink to={"/cv"} className="about-interests">
+          <NavLink to={"cv"} className="about-interests">
             Interests
           </NavLink>
           .
