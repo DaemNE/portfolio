@@ -14,10 +14,11 @@
 
 .no-match {
     height: 90vh;
-    font-size: 3rem;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 4rem;
+    color: var(--white);
 }
 
 body {
