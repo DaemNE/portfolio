@@ -12,6 +12,14 @@
     --text-color: #d5e1ef;
 }
 
+.no-match {
+    height: 90vh;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 body {
     background: linear-gradient(45deg, #2b2d42, #8d99ae);
     height: auto;
