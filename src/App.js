@@ -32,7 +32,7 @@ function App() {
     <>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home />}></Route>
+        <Route path="/portfolio" element={<Home />}></Route>
         <Route path="/projects" element={<Projects />}>
           <Route index element={<MostProudProjects />}></Route>
           <Route path={"mostproud"} element={<MostProudProjects />}></Route>
