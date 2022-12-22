@@ -325,7 +325,6 @@ li {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    overflow: scroll;
     box-shadow: inset 3px 4px 5px 0px rgba(197, 197, 197, 0.1), inset 3px 6px 6px 5px rgba(78, 77, 77, 0.1), -2px -2px 8px 2px rgba(255, 255, 255, 0.1), 2px 2px 6px 3px rgba(0, 0, 0, 0.4);
     overflow: hidden;
 }
@@ -365,7 +364,6 @@ li {
     display: flex;
     gap: 5vw;
     height: 80vh;
-    overflow: scroll;
 }
 
 .project-display-cards {
